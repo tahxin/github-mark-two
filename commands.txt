@@ -1,0 +1,15 @@
+echo "# github-mark-two" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:tahxin/github-mark-two.git
+git push -u origin main
+
+
+
+git add .
+git commit -m "first commit again yes again"
+git branch -M main
+git remote add origin git@github.com:tahxin/github-mark-two.git
+git push -u origin main
